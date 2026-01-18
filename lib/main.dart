@@ -1,5 +1,6 @@
 import 'package:api_practise_self/home_screen.dart';
 import 'package:api_practise_self/new_screen.dart';
+import 'package:api_practise_self/upload_image.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: NewScreen(),
+      home: UploadImage(),
     );
   }
 }
